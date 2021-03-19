@@ -6,4 +6,6 @@ import numpy as np
 IRGB = cv2.imread("R2D2.jpg")
 print(IRGB)
 print(IRGB.shape)
+print("Modificacion en la rama main")
+print(len(IRGB))
 
