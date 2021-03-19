@@ -10,4 +10,6 @@ print("Lineas agregadas en la rama2")
 IGS=cv2.cvtColor(IRGB,cv2.COLOR_BGR2GRAY)
 print(IGS)
 print(IGS.shape)
+cv2.imwrite("R2D2S.jpg",IGS)
+
 
